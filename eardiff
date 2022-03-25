@@ -1,0 +1,5 @@
+#!/bin/sh
+
+my_dir=$(dirname "$0")
+echo "directory : $my_dir"
+java -classpath $my_dir EarDiff $1 $2
